@@ -1,0 +1,131 @@
+body {
+			background-image: url("../images/contentpage-blur-overlay-image.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 100%;
+			margin-top: 0px;
+			margin-left: 0px;
+			margin-right: 0px;
+			margin-bottom: 50px;
+			color: white;
+			overflow-x:hidden;
+			}
+		h1 {
+			font-family: helvetica;
+			font-size: 70px;
+			text-align: center;
+			color: white;
+			width: 100.5%;
+			min-width: 860px;
+			background-color: black;
+			opacity: 0.6;
+			text-shadow: 1px 1px black;
+			margin-top: 0px;
+		}
+		h2 {
+			font-size: 40px;
+			font-family: sans-serif;
+			font-style: bold;
+			margin-left: 53.5%;
+			color: #D3D3D3;
+			text-shadow: 1px 1px black;
+		}
+		#contentpage-background {
+			filter: blur(5px);
+		}
+		p {
+			font-size: 20px;
+			font-family: helvetica;
+			margin-left: 53.5%;
+			margin-right: 5%;
+			text-align: justify;
+			text-shadow: 1px 1px black;
+		}
+		h3 {
+			font-size: 40px;
+			font-family: sans-serif;
+			font-style: bold;
+			margin-left: 2.5%;
+			margin-right: 0%;
+			color: #D3D3D3;
+			float: left;
+			text-shadow: 1px 1px black;
+			padding: 0px;
+			bottom: 0px;
+		}
+		#content-body {
+			font-size: 20px;
+			font-family: helvetica;
+			margin-left: 0%;
+			margin-right: 0%;
+			text-align: justify;
+			padding-top: 430px;
+			position: relative;
+			text-shadow: 1px 1px black;
+		}
+		.footer {
+			opacity: 0.8;
+			background-color: black;
+			left: 0;
+			bottom: 1;
+			right: 0;
+			width: 100%;
+			margin-left: 0px;
+			color: white;
+			text-align: center;
+
+			padding-bottom: 20px;
+			padding-top: 20px;
+		
+		}
+		#content-image1 {
+			float: left;
+		}
+		
+		.item1 {
+			word-spacing: 3px;
+		}
+		.nav{
+			opacity: 0.8;
+    		list-style:none;
+    		margin:0;
+    		text-align:center;
+    		background-color: black;
+   			text-decoration: none;
+   			padding-right: 10px;
+
+
+		}
+		.nav li{
+  		  	display:inline;
+ 			color: white;
+			text-decoration: none;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 25px;
+			z-index: 100;
+			width: 0;
+
+		}
+		.nav a{
+  			display:inline-block;
+  		 	padding-bottom: 10px;
+			padding-top: 10px;
+			padding-right: 50px;
+			padding-left: 50px;
+		}
+
+		}
+		li a:link{
+			color: white;
+			text-decoration: none;
+			position: fixed;
+		}
+		li a:hover {
+ 			background-color: gray;
+ 			color: white;
+ 			text-decoration: none;
+		}
+		li a.active {
+			background-color: gray;
+ 			color: white;
+		}
